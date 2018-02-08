@@ -4,18 +4,21 @@
  * and open the template in the editor.
  */
 package holamundo;
-
+import java.util.Scanner;
 /**
  *
  * @author Estudiantes
  */
 public class Holamundo {
-
+    
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
     
+    public static void main(String[] args) {
+       String nombre;
+       Scanner sc = new Scanner(System.in);
+       nombre = sc.nextLine();
+       System.out.println("Hola "+nombre);
+    }
 }
